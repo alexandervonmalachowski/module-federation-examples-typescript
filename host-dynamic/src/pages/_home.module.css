@@ -1,0 +1,28 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding: 2.5rem 4rem;
+  gap: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem;
+}
+.content > * {
+  margin: 0.2rem 0;
+}
+
+@media (min-width: 768px) {
+  .home {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1536px) {
+  .home {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

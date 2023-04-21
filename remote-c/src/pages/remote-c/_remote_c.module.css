@@ -1,0 +1,18 @@
+.remote-c-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.remote-c-home > * {
+  margin: 0.2rem 0;
+  display: flex;
+}
+
+.remote-c-home .add {
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  padding: 0.85rem 1.25rem;
+}

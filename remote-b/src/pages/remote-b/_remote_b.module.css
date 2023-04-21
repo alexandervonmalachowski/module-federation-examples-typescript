@@ -1,0 +1,11 @@
+.remote-b-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.remote-b-home > * {
+  margin: 0.2rem 0;
+  display: flex;
+}
